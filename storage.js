@@ -6,6 +6,8 @@ class Storage {
     this.defaultCountry = "CA";
   }
 
+// adding a comment to test git
+
   getLocationData() {
     if(localStorage.getItem('city') === null){
       this.city = this.defaultCity;
